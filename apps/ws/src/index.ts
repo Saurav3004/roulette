@@ -9,6 +9,5 @@ wss.on("connection",(ws) => {
         console.log(msg)
     })
 
-    ws.send("something
-        ")
+    ws.send("something")
 })
